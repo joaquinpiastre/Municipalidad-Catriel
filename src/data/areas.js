@@ -1,0 +1,61 @@
+/**
+ * Datos mock de áreas de gobierno / secretarías.
+ */
+export const areasList = [
+  {
+    id: 'medio-ambiente',
+    slug: 'medio-ambiente',
+    name: 'Secretaría de Medio Ambiente',
+    shortDescription: 'Gestión ambiental, residuos, arbolado y educación ambiental.',
+    description: 'La Secretaría de Medio Ambiente tiene a su cargo la política ambiental del municipio: gestión de residuos sólidos urbanos, arbolado urbano, educación ambiental, control y normativa ambiental. Trabaja en conjunto con la comunidad para un Catriel más sostenible.',
+    functions: ['Gestión de RSU', 'Arbolado y espacios verdes', 'Educación ambiental', 'Normativa y control ambiental', 'Programas de reciclaje'],
+    programs: ['[Placeholder - programas vigentes]'],
+    responsable: '[Placeholder - nombre del responsable]',
+    tramites: ['Certificado ambiental', '[Placeholder - otros trámites]'],
+    path: '/gestion/medio-ambiente',
+    icon: 'environment',
+  },
+  {
+    id: 'turismo',
+    slug: 'turismo',
+    name: 'Dirección de Turismo',
+    shortDescription: 'Promoción turística, eventos y patrimonio local.',
+    description: 'La Dirección de Turismo promociona a Catriel como destino, organiza eventos y cuida el patrimonio cultural y natural. Trabaja con la identidad local: energía, producción, cultura y naturaleza.',
+    functions: ['Promoción turística', 'Eventos y fiestas', 'Información al visitante', 'Circuitos y puntos de interés'],
+    programs: ['[Placeholder - programas y circuitos]'],
+    responsable: '[Placeholder]',
+    tramites: ['Información turística', 'Permisos para eventos'],
+    path: '/gestion/turismo',
+    icon: 'tourism',
+  },
+  {
+    id: 'deportes',
+    slug: 'deportes',
+    name: 'Dirección de Deportes',
+    shortDescription: 'Deporte social, torneos y actividades recreativas.',
+    description: 'La Dirección de Deportes fomenta la práctica deportiva en todas las edades, organiza torneos municipales y mantiene los espacios e instalaciones deportivas para la comunidad.',
+    functions: ['Torneos y ligas municipales', 'Escuelas deportivas', 'Mantenimiento de instalaciones', 'Actividades recreativas'],
+    programs: ['[Placeholder - torneos y programas]'],
+    responsable: '[Placeholder]',
+    tramites: ['Inscripción a torneos', 'Uso de instalaciones'],
+    path: '/gestion/deportes',
+    icon: 'sport',
+  },
+  {
+    id: 'cultura',
+    slug: 'cultura',
+    name: 'Dirección de Cultura',
+    shortDescription: 'Cultura, arte, patrimonio y actividades comunitarias.',
+    description: 'La Dirección de Cultura impulsa las expresiones artísticas y el patrimonio cultural de Catriel. Organiza festivales, talleres, muestras y actividades que fortalecen la identidad local.',
+    functions: ['Eventos culturales', 'Talleres y capacitaciones', 'Patrimonio cultural', 'Espacios culturales'],
+    programs: ['[Placeholder - festivales y programas]'],
+    responsable: '[Placeholder]',
+    tramites: ['Solicitud de espacios', 'Inscripción a talleres'],
+    path: '/gestion/cultura',
+    icon: 'culture',
+  },
+];
+
+export function getAreaBySlug(slug) {
+  return areasList.find((a) => a.slug === slug) || null;
+}

@@ -1,0 +1,9 @@
+export { Hero } from './Hero';
+export { QuickAccess } from './QuickAccess';
+export { NewsHighlight } from './NewsHighlight';
+export { AreasBlock } from './AreasBlock';
+export { TransparencyBlock } from './TransparencyBlock';
+export { TourismBlock } from './TourismBlock';
+export { IndicatorsBlock } from './IndicatorsBlock';
+export { ContactBlock } from './ContactBlock';
+export { MapBlock } from './MapBlock';

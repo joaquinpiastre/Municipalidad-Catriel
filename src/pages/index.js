@@ -1,0 +1,10 @@
+export { HomePage } from './HomePage';
+export { MunicipalidadPage } from './MunicipalidadPage';
+export { GestionPage } from './GestionPage';
+export { TramitesPage } from './TramitesPage';
+export { NoticiasPage } from './NoticiasPage';
+export { TransparencyPage } from './TransparencyPage';
+export { TurismoPage } from './TurismoPage';
+export { DesarrolloLocalPage } from './DesarrolloLocalPage';
+export { ContactPage } from './ContactPage';
+export { NotFoundPage } from './NotFoundPage';
