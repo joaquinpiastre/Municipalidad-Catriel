@@ -96,3 +96,4 @@ Basada en el escudo de Catriel (azur, plata, neutros):
 
 © Municipalidad de Catriel, Río Negro, Argentina.
 "# Municipalidad-Catriel" 
+"# Municipalidad-CH" 
